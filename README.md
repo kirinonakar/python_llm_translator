@@ -75,5 +75,4 @@ A powerful, user-friendly local translation tool built with **Python**, **Gradio
 *   **Weird Translations**: Try lowering the **Temperature** (e.g., 0.1 - 0.3) for more literal translations, or try a different Model.
 
 ## 📜 License
-
-This project is open-source. Feel free to modify and distribute.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
