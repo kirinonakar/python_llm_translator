@@ -253,7 +253,7 @@ body { font-family: 'Segoe UI', sans-serif; }
 .gradio-container { max-width: 95% !important; }
 """
 
-with gr.Blocks(css=custom_css, title="LM Studio Translator") as demo:
+with gr.Blocks(title="LM Studio Translator") as demo:
     gr.Markdown(
         """
         # 🤖 AI Universal Translator
@@ -436,4 +436,4 @@ with gr.Blocks(css=custom_css, title="LM Studio Translator") as demo:
                     )
 
 if __name__ == "__main__":
-    demo.launch(share=False, inbrowser=True)
+    demo.launch(share=False, inbrowser=True, css=custom_css)
